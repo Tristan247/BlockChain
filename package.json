@@ -1,0 +1,32 @@
+{
+  "name": "codertoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tristan Spiteri",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "@types/readline-sync": "^1.4.4",
+    "@types/shelljs": "^0.8.11"
+  },
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^4.4.2",
+    "cfonts": "^2.10.0",
+    "clear": "^0.1.0",
+    "readline-sync": "^1.4.10",
+    "save": "^2.4.0",
+    "shelljs": "^0.8.5",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
